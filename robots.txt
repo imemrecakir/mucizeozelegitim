@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Yasal sayfalar zaten "noindex" — yine de aramaya çıkmasını engellemek için:
+Disallow: /kvkk.html
+Disallow: /gizlilik.html
+Disallow: /cerez.html
+
+Sitemap: https://www.mucizeozelegitim.com/sitemap.xml
