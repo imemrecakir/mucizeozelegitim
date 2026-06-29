@@ -459,17 +459,27 @@
           </span>
         </a>
 
-        <button
-          class="navbar-toggler border-0"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nav"
-          aria-controls="nav"
-          aria-expanded="false"
-          aria-label="Menü"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Mobilde: Randevu Al + hamburger (menü dışında, her zaman görünür) -->
+        <div class="d-flex align-items-center gap-2 d-lg-none">
+          <a
+            class="btn btn-brand btn-sm px-3 py-2"
+            href="https://wa.me/905359347094"
+            target="_blank"
+            rel="noopener"
+            ><i class="bi bi-whatsapp" aria-hidden="true"></i>Randevu Al</a
+          >
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+            aria-controls="nav"
+            aria-expanded="false"
+            aria-label="Menü"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
         <div class="collapse navbar-collapse" id="nav">
           <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
@@ -485,7 +495,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#iletisim">İletişim</a>
             </li>
-            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <li class="nav-item ms-lg-2 d-none d-lg-block">
               <a
                 class="btn btn-brand btn-sm px-3 py-2"
                 href="https://wa.me/905359347094"
